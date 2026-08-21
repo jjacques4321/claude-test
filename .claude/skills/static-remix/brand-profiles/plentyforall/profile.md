@@ -32,9 +32,15 @@ content matches the website label, only the bottle vessel/color is different.
 - One-time price: $35
 - Subscription price: **$19.99** (42.9% off one-time price — 35 × (1 − 0.429)
   ≈ 19.99)
-- Default to leading with the subscription price ($19.99, "42.9% off with
-  subscription") in ad copy rather than the $35 one-time price, unless a
-  concept specifically calls for a one-time-purchase angle.
+- It's fine to NOT state the exact $19.99 subscription price in ad copy —
+  people find that out on the site once they choose to subscribe. Don't
+  state $19.99 as if it's the flat/one-time price (that would be
+  misleading), but a concept doesn't have to surface pricing at all, or
+  can reference a discount without pinning the exact dollar figure.
+- If a concept does reference a discount percentage, "42.9%" is fine to
+  use verbatim (the oddly specific number is a deliberate scroll-stopper),
+  or use a rounder phrasing like "over 40% off" — either works, use
+  judgment per concept rather than a fixed rule.
 - Still pull any other offer/promo details verbatim from the live product
   page at run time — this profile only fixes the subscription math, it
   doesn't guarantee no other promo exists.
