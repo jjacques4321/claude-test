@@ -153,6 +153,36 @@
           "heading": "Streak Tracker"
         }
       ]
+    },
+    {
+      "id": "chat-batch-2",
+      "source_type": "images",
+      "pdf_name": null,
+      "added": "2026-08-21T08:20:20+00:00",
+      "heading_font": null,
+      "page_count": null,
+      "images": [
+        {
+          "file": "images/chat-batch-2/001_OFFER.png",
+          "heading": "OFFER"
+        },
+        {
+          "file": "images/chat-batch-2/002_BOLD_CLAIM.png",
+          "heading": "BOLD CLAIM"
+        },
+        {
+          "file": "images/chat-batch-2/003_As_Worn_By.png",
+          "heading": "As Worn By"
+        },
+        {
+          "file": "images/chat-batch-2/004_Venn_Diagram.png",
+          "heading": "Venn Diagram"
+        },
+        {
+          "file": "images/chat-batch-2/005_Gift_Angle.png",
+          "heading": "Gift Angle"
+        }
+      ]
     }
   ]
 }
