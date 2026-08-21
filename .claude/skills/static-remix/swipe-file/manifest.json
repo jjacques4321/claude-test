@@ -269,6 +269,36 @@
           "heading": "Feature Callouts"
         }
       ]
+    },
+    {
+      "id": "chat-batch-6",
+      "source_type": "images",
+      "pdf_name": null,
+      "added": "2026-08-21T08:33:25+00:00",
+      "heading_font": null,
+      "page_count": null,
+      "images": [
+        {
+          "file": "images/chat-batch-6/001_BOLD_CLAIM.png",
+          "heading": "BOLD CLAIM"
+        },
+        {
+          "file": "images/chat-batch-6/002_BOLD_CLAIM.png",
+          "heading": "BOLD CLAIM"
+        },
+        {
+          "file": "images/chat-batch-6/003_BOLD_CLAIM.png",
+          "heading": "BOLD CLAIM"
+        },
+        {
+          "file": "images/chat-batch-6/004_Cheeky_Wordplay.png",
+          "heading": "Cheeky Wordplay"
+        },
+        {
+          "file": "images/chat-batch-6/005_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        }
+      ]
     }
   ]
 }
