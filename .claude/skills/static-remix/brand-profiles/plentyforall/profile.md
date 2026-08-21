@@ -113,6 +113,29 @@ secret ingredient"), but don't invent what it is.
   root cause of stalled hair growth by treating the scalp, not just the
   strands (not just a generic "moisture" claim).
 
+## Natural hair terminology
+
+Use real community vocabulary where it fits naturally — it's what signals
+"this brand actually gets it" versus a generic haircare ad. Don't force
+every term into every concept; pick what fits the specific hook.
+
+- **"Length retention" vs. "hair growth"** — this is the single most
+  important term here. In the natural hair community, hair usually *is*
+  growing; the real problem is breakage undoing that growth before it's
+  ever seen, so "retention" (keeping the length you grow) is the more
+  accurate, insider-credible frame than a flat "growth" claim. Prefer
+  "retention" language when the claim is really about breakage/damage
+  prevention rather than literally accelerating follicle growth rate.
+- Wash day, twist-out, braid-out, wash-and-go, protective style/styling,
+  co-wash, detangling
+- Porosity (high/low porosity), moisture retention, sealing in moisture,
+  scalp buildup
+- Shrinkage, curl definition, coily/kinky texture
+- Growth journey / hair journey, big chop
+- Edges, hairline, baby hairs, breakage, split ends
+- LOC/LCO method (liquid-oil-cream / liquid-cream-oil) — referencing "the
+  oil step" or "sealing step" of a routine signals real routine knowledge
+
 ## Framework fit notes (swipe-file library)
 
 Not every framework in the shared `swipe-file/` library suits this brand's

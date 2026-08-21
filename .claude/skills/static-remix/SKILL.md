@@ -275,6 +275,40 @@ rules, and visual/model-representation rules for every brief instead of
 generic defaults (e.g. a required hook-body-CTA order, banned quote labels,
 required model demographics) — those override the general guidance above.
 
+## Prompting guardrails (avoid text collisions, label garble, and the "AI look")
+
+These recur across runs and are cheap to prevent up front — bake them into
+every prompt you build in Step 7, not just when a regen is needed:
+
+- **Keep on-image text out of the product's way.** Don't let a headline wrap
+  around or behind the product — put text in a dedicated zone (a solid-color
+  band, a clear half of a split composition, a panel beside the product) with
+  real separation from it. Text-over-product is the most common legibility
+  failure (headline lines interrupted mid-word, words swallowed behind the
+  bottle).
+- **Don't over-demand tiny label text.** If the product is small in frame or
+  the label isn't the focal point, don't require every ingredient-line word to
+  render perfectly — small text is where misspellings creep in (e.g. "Jojobs"
+  for "Jojoba"). Only the brand name/logo needs to be crisp at small scale;
+  say so explicitly rather than implying the whole label needs to be readable.
+- **State it plainly**: add a line like "all text must be spelled correctly
+  with no repeated or dropped words" to the prompt — it's a cheap guardrail
+  against duplicated-word glitches in headlines.
+- **Match the polish level to the format.** UGC-style frameworks (screenshots,
+  prop testimonials, DMs, sticky notes, iPhone Notes) should explicitly ask
+  for phone-camera realism — natural asymmetric lighting, real skin texture,
+  slightly imperfect framing — and should NOT ask for "professional ad
+  aesthetic," which pushes toward the smooth, overlit, plasticky "AI-generated"
+  look that undercuts the authenticity the format is going for. Studio-style
+  frameworks (BOLD CLAIM, US VS THEM, OFFER, Feature Callouts) can ask for
+  clean studio lighting — that polish is appropriate there.
+- **After generating, actually look at each image** (Read tool) before
+  reporting done — don't assume success from an HTTP 200. A successful API
+  call can still render a legibility defect (collision, typo, duplicated
+  word). Regenerate once for a defect that's prominent (a garbled headline,
+  not a barely-readable ingredient line) — this is a judgment call, not
+  something the retry-on-500 rule in Step 7 covers.
+
 ## Step 7 — Generate images with Nano Banana Pro
 
 For each concept × variation, build a full image prompt from the brief (scene +
