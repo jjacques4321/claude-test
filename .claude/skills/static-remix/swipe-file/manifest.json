@@ -183,6 +183,36 @@
           "heading": "Gift Angle"
         }
       ]
+    },
+    {
+      "id": "chat-batch-3",
+      "source_type": "images",
+      "pdf_name": null,
+      "added": "2026-08-21T08:25:21+00:00",
+      "heading_font": null,
+      "page_count": null,
+      "images": [
+        {
+          "file": "images/chat-batch-3/001_TESTIMONIAL.png",
+          "heading": "TESTIMONIAL"
+        },
+        {
+          "file": "images/chat-batch-3/002_Prop_Testimonial.png",
+          "heading": "Prop Testimonial"
+        },
+        {
+          "file": "images/chat-batch-3/003_TESTIMONIAL.png",
+          "heading": "TESTIMONIAL"
+        },
+        {
+          "file": "images/chat-batch-3/004_TESTIMONIAL.png",
+          "heading": "TESTIMONIAL"
+        },
+        {
+          "file": "images/chat-batch-3/005_Press_Quote.png",
+          "heading": "Press Quote"
+        }
+      ]
     }
   ]
 }

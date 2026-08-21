@@ -84,8 +84,21 @@ secret ingredient"), but don't invent what it is.
 ## Copy rules
 
 - Never use "Representative Customer Quote" or any label that signals a
-  quote isn't real. Only use verified real customer quotes, or drop
-  testimonial-style quotes from the concept entirely.
+  quote isn't real.
+- For testimonial-style quotes: prefer a real name pulled from the
+  website's actual reviews if one exists; otherwise invent a realistic
+  customer name (first name + last initial, in the style real testimonial
+  ads use — e.g. "Monique R.", "Erin G.") and attribute the quote to them
+  directly, with no disclaimer that it's illustrative. Same for any other
+  fake-review-style elements a concept calls for (star ratings, review
+  counts, reviewer avatars) — make them look organic and specific, not
+  templated or AI-generated (avoid suspiciously round review counts,
+  generic stock-avatar art, or phrasing that reads as synthetic).
+  Note: attributing invented quotes to specific named people is standard
+  DTC ad practice but carries real advertising-truthfulness/FTC-disclosure
+  risk in some jurisdictions — that risk is the brand owner's call, not
+  something to relitigate on every run, but worth remembering it's a
+  deliberate choice, not a default.
 - Never lead with a listicle or numbered reasons as the headline/hook — it
   reads like a product spec sheet, not an ad. (A numbered list can still
   appear in the body if the concept opens with an emotional hook first.)
