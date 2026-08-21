@@ -213,6 +213,36 @@
           "heading": "Press Quote"
         }
       ]
+    },
+    {
+      "id": "chat-batch-4",
+      "source_type": "images",
+      "pdf_name": null,
+      "added": "2026-08-21T08:29:36+00:00",
+      "heading_font": null,
+      "page_count": null,
+      "images": [
+        {
+          "file": "images/chat-batch-4/001_Ironic_Bad_Review.png",
+          "heading": "Ironic Bad Review"
+        },
+        {
+          "file": "images/chat-batch-4/002_Illustrated_Comparison.png",
+          "heading": "Illustrated Comparison"
+        },
+        {
+          "file": "images/chat-batch-4/003_Before__After.png",
+          "heading": "Before & After"
+        },
+        {
+          "file": "images/chat-batch-4/004_Before__After.png",
+          "heading": "Before & After"
+        },
+        {
+          "file": "images/chat-batch-4/005_DM_Screenshot.png",
+          "heading": "DM Screenshot"
+        }
+      ]
     }
   ]
 }
