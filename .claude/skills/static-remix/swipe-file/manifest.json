@@ -243,6 +243,32 @@
           "heading": "DM Screenshot"
         }
       ]
+    },
+    {
+      "id": "chat-batch-5",
+      "source_type": "images",
+      "pdf_name": null,
+      "added": "2026-08-21T08:31:59+00:00",
+      "heading_font": null,
+      "page_count": null,
+      "images": [
+        {
+          "file": "images/chat-batch-5/001_Sticky_Notes.png",
+          "heading": "Sticky Notes"
+        },
+        {
+          "file": "images/chat-batch-5/002_How-To_Steps.png",
+          "heading": "How-To Steps"
+        },
+        {
+          "file": "images/chat-batch-5/003_US_VS_THEM.png",
+          "heading": "US VS THEM"
+        },
+        {
+          "file": "images/chat-batch-5/004_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        }
+      ]
     }
   ]
 }
