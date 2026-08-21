@@ -329,6 +329,32 @@
           "heading": "Feature Callouts"
         }
       ]
+    },
+    {
+      "id": "chat-batch-8",
+      "source_type": "images",
+      "pdf_name": null,
+      "added": "2026-08-21T08:37:11+00:00",
+      "heading_font": null,
+      "page_count": null,
+      "images": [
+        {
+          "file": "images/chat-batch-8/001_US_VS_THEM.png",
+          "heading": "US VS THEM"
+        },
+        {
+          "file": "images/chat-batch-8/002_Before__After.png",
+          "heading": "Before & After"
+        },
+        {
+          "file": "images/chat-batch-8/003_Before__After.png",
+          "heading": "Before & After"
+        },
+        {
+          "file": "images/chat-batch-8/004_Before__After.webp",
+          "heading": "Before & After"
+        }
+      ]
     }
   ]
 }
