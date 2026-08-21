@@ -41,14 +41,22 @@ content matches the website label, only the bottle vessel/color is different.
 
 ## Ingredients
 
-- Ingredient **count to state in copy: 9** (not 7 — the website's listed
-  7 oils — castor, argan, jojoba, rosemary, vitamin E, rose, lavender — are
-  confirmed real, but the brand has said the true count is 9).
-- **The other 2 ingredients are not currently known/verified.** Do not invent
-  them. It's fine to use "9 nourishing ingredients" or "9-ingredient blend"
-  as a count-only claim; do not enumerate a 9-item ingredient list unless the
-  two missing ingredients have been confirmed (ask the user, or check the
-  product page again in case it's been updated).
+Confirmed full list (9 total — always use 9, never the website's 7):
+
+1. Jojoba Oil
+2. Argan Oil
+3. Castor Oil
+4. Vitamin E (Tocopherol)
+5. Rosemary Oil
+6. Lavender Oil
+7. Rose Oil
+8. Eucalyptus Oil
+9. Secret Ingredient
+
+The last item is intentionally listed as "Secret Ingredient" — that's the
+brand's actual copy, not a placeholder for something unknown. It's fine to
+use it verbatim in ad copy (e.g. as a curiosity hook: "8 real oils... and 1
+secret ingredient"), but don't invent what it is.
 
 ## Target customer & visual rules
 
