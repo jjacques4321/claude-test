@@ -115,8 +115,20 @@ out, and (if applicable) the cost is confirmed.
 
 ## Step 4 — Fetch the product page and study the real product photo
 
-Fetch the product URL (WebFetch or curl). Then, critically, download the actual
-product photo — don't describe the product from text alone.
+**First, check for a saved brand profile**: look in `<skill_dir>/brand-profiles/`
+for a folder matching the product URL's domain (e.g. `plentyforall/profile.md`).
+If one exists, read it — it can override or correct what the live site would
+otherwise tell you (a mismatched product photo, real pricing math, ingredient
+counts, target-audience/visual rules, copy framework and rules). Still fetch
+the live product page for anything the profile doesn't cover (current promo
+copy, price changes, etc) — a profile fixes known gaps, it isn't a reason to
+skip checking the live page. If the profile points to its own
+`reference-photos/`, use one of those as the `--reference` image in Step 7
+instead of downloading a new photo from the site.
+
+If no profile exists for this brand, fetch the product URL (WebFetch or curl).
+Then, critically, download the actual product photo — don't describe the
+product from text alone.
 
 ```bash
 <skill_dir>/scripts/fetch_product_photo.sh "<product_url>" <run_dir>/product/photo.png
@@ -173,6 +185,11 @@ write `<run_dir>/briefs/concept_NN.md` containing:
 
 Pull all pricing/offer copy verbatim from what you captured in Step 4 — never
 invent numbers, discounts, or guarantee terms.
+
+If a brand profile was loaded in Step 4, follow its copy framework, copy
+rules, and visual/model-representation rules for every brief instead of
+generic defaults (e.g. a required hook-body-CTA order, banned quote labels,
+required model demographics) — those override the general guidance above.
 
 ## Step 7 — Generate images with Nano Banana Pro
 
