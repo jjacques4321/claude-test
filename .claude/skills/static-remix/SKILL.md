@@ -35,17 +35,59 @@ the per-run `runs/<timestamp>/extracted/` folder, which only holds the
 current run's PDF. Step 2 below adds the current run's PDF to this library
 automatically, so it grows on its own with normal use.
 
-The user can also add a PDF to the library at any time without running the
-full pipeline — no product URL, questions, or image generation needed — by
-just asking, at which point run:
+The user can also add examples at any time without running the full
+pipeline — no product URL, questions, or image generation needed.
+
+**A PDF**: run
 
 ```bash
 python3 <skill_dir>/scripts/add_to_swipe_file.py <pdf_path> [optional-label]
 ```
 
-This prints the framework summary across the *entire* library afterward, not
-just the newly added PDF — show that summary to the user so they can see how
-the library has grown.
+**Standalone images pasted directly in chat** (no PDF): there's no heading to
+auto-detect from a bare image, so look at each one yourself and judge which
+framework it fits — an existing one from the library, or a new framework
+name if it's a genuinely different structure than anything seen so far (the
+taxonomy isn't fixed at the original 10). Images pasted inline in chat
+aren't automatically files on disk; recover them from this session's own
+transcript first:
+
+```bash
+python3 -c "
+import json, base64
+path = '/root/.claude/projects/<project-slug>/<session-id>.jsonl'
+lines = open(path, encoding='utf-8').read().splitlines()
+for line in lines:
+    obj = json.loads(line)
+    msg = obj.get('message')
+    if not msg or msg.get('role') != 'user': continue
+    content = msg.get('content')
+    if not isinstance(content, list): continue
+    imgs = [c for c in content if isinstance(c, dict) and c.get('type') == 'image']
+    if imgs:
+        last = imgs  # keep overwriting; ends up holding the LAST user turn with images
+for n, img in enumerate(last, 1):
+    src = img['source']
+    ext = src['media_type'].split('/')[-1]
+    data = base64.b64decode(src['data'])
+    open(f'/tmp/pasted_{n:02d}.{ext}', 'wb').write(data)
+"
+```
+
+Then add them with explicit labels:
+
+```bash
+python3 <skill_dir>/scripts/add_images_to_swipe_file.py <source_label> \
+  "<framework for image 1>" <image_path1> \
+  "<framework for image 2>" <image_path2> ...
+```
+
+Tell the user what framework you assigned each image so they can correct any
+that are off — labeling from a bare image is a judgment call, not a certainty.
+
+Either script prints the framework summary across the *entire* library
+afterward, not just what was just added — show that to the user so they can
+see how the library has grown.
 
 ## Step 1 — Locate the PDF and create the run folder
 

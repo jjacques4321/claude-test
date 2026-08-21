@@ -123,6 +123,36 @@
           "heading": "Reasons Why\u2026"
         }
       ]
+    },
+    {
+      "id": "chat-batch-1",
+      "source_type": "images",
+      "pdf_name": null,
+      "added": "2026-08-21T08:18:52+00:00",
+      "heading_font": null,
+      "page_count": null,
+      "images": [
+        {
+          "file": "images/chat-batch-1/001_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        },
+        {
+          "file": "images/chat-batch-1/002_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        },
+        {
+          "file": "images/chat-batch-1/003_BOLD_CLAIM.png",
+          "heading": "BOLD CLAIM"
+        },
+        {
+          "file": "images/chat-batch-1/004_BOLD_CLAIM.png",
+          "heading": "BOLD CLAIM"
+        },
+        {
+          "file": "images/chat-batch-1/005_Streak_Tracker.png",
+          "heading": "Streak Tracker"
+        }
+      ]
     }
   ]
 }

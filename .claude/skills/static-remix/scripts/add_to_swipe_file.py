@@ -8,6 +8,11 @@ across every PDF ever added — so later runs of static-remix can draw
 examples from the whole library, not just whatever PDF was attached that
 day.
 
+For standalone images (e.g. pasted directly in chat, not inside a PDF),
+use add_images_to_swipe_file.py instead — there's no heading to
+auto-detect from a bare image, so those need an explicit framework label
+per image.
+
 Usage:
     python3 add_to_swipe_file.py <pdf_path> [label]
 
@@ -23,40 +28,13 @@ adding, so the caller can show the user how the library has grown.
 """
 import sys
 import os
-import re
-import json
-import shutil
 from datetime import datetime, timezone
 
 from pdf_extract_lib import extract_images, safe_name
-
-SKILL_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SWIPE_DIR = os.path.join(SKILL_DIR, "swipe-file")
-MANIFEST_PATH = os.path.join(SWIPE_DIR, "manifest.json")
-
-
-def load_manifest():
-    if os.path.exists(MANIFEST_PATH):
-        with open(MANIFEST_PATH) as f:
-            return json.load(f)
-    return {"sources": []}
-
-
-def save_manifest(manifest):
-    os.makedirs(SWIPE_DIR, exist_ok=True)
-    with open(MANIFEST_PATH, "w") as f:
-        json.dump(manifest, f, indent=2)
-
-
-def make_source_id(pdf_path, label, existing_ids):
-    base = label or os.path.splitext(os.path.basename(pdf_path))[0]
-    base = re.sub(r"[^a-zA-Z0-9_-]+", "-", base).strip("-").lower() or "source"
-    candidate = base
-    n = 2
-    while candidate in existing_ids:
-        candidate = f"{base}-{n}"
-        n += 1
-    return candidate
+from swipe_file_lib import (
+    SWIPE_DIR, load_manifest, save_manifest, make_source_id,
+    print_library_summary,
+)
 
 
 def main():
@@ -73,7 +51,7 @@ def main():
 
     manifest = load_manifest()
     existing_ids = {s["id"] for s in manifest["sources"]}
-    source_id = make_source_id(pdf_path, label, existing_ids)
+    source_id = make_source_id(label or os.path.splitext(os.path.basename(pdf_path))[0], existing_ids)
 
     heading_font, page_count, images = extract_images(pdf_path)
     if heading_font is None:
@@ -96,6 +74,7 @@ def main():
 
     manifest["sources"].append({
         "id": source_id,
+        "source_type": "pdf",
         "pdf_name": os.path.basename(pdf_path),
         "added": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "heading_font": heading_font,
@@ -107,18 +86,7 @@ def main():
     print(f"Added source '{source_id}' ({os.path.basename(pdf_path)}): "
           f"{len(source_manifest_images)} images from {page_count} pages.")
     print(f"Detected heading font: {heading_font}")
-
-    # Aggregate framework counts across the whole library.
-    totals = {}
-    for s in manifest["sources"]:
-        for img in s["images"]:
-            totals[img["heading"]] = totals.get(img["heading"], 0) + 1
-
-    print(f"\nSwipe file now has {len(manifest['sources'])} source(s), "
-          f"{sum(len(s['images']) for s in manifest['sources'])} total images.")
-    print("Frameworks in the library:")
-    for name, count in sorted(totals.items(), key=lambda kv: -kv[1]):
-        print(f"  - {name}: {count} image(s)")
+    print_library_summary(manifest)
 
 
 if __name__ == "__main__":
