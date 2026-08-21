@@ -299,6 +299,36 @@
           "heading": "Feature Callouts"
         }
       ]
+    },
+    {
+      "id": "chat-batch-7",
+      "source_type": "images",
+      "pdf_name": null,
+      "added": "2026-08-21T08:35:41+00:00",
+      "heading_font": null,
+      "page_count": null,
+      "images": [
+        {
+          "file": "images/chat-batch-7/001_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        },
+        {
+          "file": "images/chat-batch-7/002_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        },
+        {
+          "file": "images/chat-batch-7/003_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        },
+        {
+          "file": "images/chat-batch-7/004_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        },
+        {
+          "file": "images/chat-batch-7/005_Feature_Callouts.png",
+          "heading": "Feature Callouts"
+        }
+      ]
     }
   ]
 }

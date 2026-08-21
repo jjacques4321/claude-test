@@ -107,6 +107,45 @@ secret ingredient"), but don't invent what it is.
   root cause of stalled hair growth by treating the scalp, not just the
   strands (not just a generic "moisture" claim).
 
+## Framework fit notes (swipe-file library)
+
+Not every framework in the shared `swipe-file/` library suits this brand's
+audience and copy rules (emotional hook first, never a listicle-led
+headline, community-rooted not stock-photo). A framework being in the
+library doesn't mean it's a good fit here — judgment per run still applies,
+but as a starting point:
+
+**Good fits**: BOLD CLAIM (if the claim itself IS the emotional hook, not a
+generic feature claim), Before & After (this audience's core frustration is
+literally stalled progress — very on-brief), TESTIMONIAL, Sticky Notes,
+Prop Testimonial, iPhone NOTES, DM Screenshot (all read as authentic/
+community-rooted, matching the "avoid stock photo feel" rule), QUESTION
+(a pain-point question is a natural emotional hook), US VS THEM, OFFER.
+
+**Use with care**: Feature Callouts, Reasons Why…, Features & Benefits,
+How-To Steps — these are logic/spec-sheet-led by nature, which conflicts
+with "never lead with a listicle or numbered reasons as the headline/hook."
+Fine as body content *after* an emotional hook headline, not as the leading
+format. Venn Diagram is usable structurally (two benefits overlapping at
+the product) but needs a tone rewrite — the source example used sexual
+humor that doesn't fit this audience's frustration/heartbreak tone.
+
+**Skip or deprioritize**: Ironic Bad Review and Cheeky Wordplay — both rely
+on humor/irony that risks landing wrong against an audience explicitly
+described as sitting in frustration, heartbreak, or near-resignation.
+Gift Angle — doesn't fit a self-purchase haircare positioning unless a
+specific gifting campaign is the actual brief. Illustrated Comparison —
+cartoon-avatar style cuts against "avoid stock photo feel... feel real and
+community-rooted."
+
+**As Worn By and Press Quote — do not fabricate**: unlike an invented
+customer testimonial name (explicitly authorized above), inventing a
+celebrity endorsement or a fake press citation (e.g. attributing a quote
+to a real publication like TIME) is a materially different move —
+impersonating a real person or outlet, not just a stylized ad device. Only
+use these frameworks if a real, verifiable endorsement or press mention
+actually exists for this brand.
+
 ## Reference photos
 
 `reference-photos/real_bottle_01.jpeg` through `real_bottle_05.jpeg`/`.webp`
