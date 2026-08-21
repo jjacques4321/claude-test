@@ -17,9 +17,35 @@ Don't skip steps, and don't silently default the required questions in Step 3.
 - Python 3 with PyMuPDF (`import fitz`). If missing: `pip install pymupdf`.
 - `perl` and `curl` on PATH (used by the helper scripts).
 - Scripts used below live in `scripts/` next to this file:
-  - `scripts/extract_pdf_sections.py` — extracts + labels images from the PDF
+  - `scripts/extract_pdf_sections.py` — extracts + labels images from a PDF
+    into a single run's folder
+  - `scripts/add_to_swipe_file.py` — extracts + labels images from a PDF into
+    the persistent `swipe-file/` library (accumulates across every PDF ever
+    provided, not just this run's)
+  - `scripts/pdf_extract_lib.py` — shared extraction logic used by both of
+    the above (not called directly)
   - `scripts/fetch_product_photo.sh` — best-effort product photo downloader
   - `scripts/gemini-image-ref.sh` — one Nano Banana Pro image generation call
+
+## Building the swipe file over time
+
+`<skill_dir>/swipe-file/` is a persistent library of every labeled ad example
+ever extracted, across every PDF the user has ever provided — separate from
+the per-run `runs/<timestamp>/extracted/` folder, which only holds the
+current run's PDF. Step 2 below adds the current run's PDF to this library
+automatically, so it grows on its own with normal use.
+
+The user can also add a PDF to the library at any time without running the
+full pipeline — no product URL, questions, or image generation needed — by
+just asking, at which point run:
+
+```bash
+python3 <skill_dir>/scripts/add_to_swipe_file.py <pdf_path> [optional-label]
+```
+
+This prints the framework summary across the *entire* library afterward, not
+just the newly added PDF — show that summary to the user so they can see how
+the library has grown.
 
 ## Step 1 — Locate the PDF and create the run folder
 
@@ -74,6 +100,18 @@ framework list and image counts to build question (d) below. Use judgment: if
 the extraction pulled in obvious decorative noise (tiny logos/icons unrelated to
 any ad example), it's fine to disregard those when presenting frameworks to the
 user, but don't hide genuine ad examples.
+
+Then add this run's PDF to the persistent swipe-file library too, so it keeps
+growing across runs:
+
+```bash
+python3 <skill_dir>/scripts/add_to_swipe_file.py <run_dir>/source.pdf
+```
+
+Use the aggregated framework summary this prints (across the whole library,
+not just this PDF) — not just the current-run summary above — when building
+question (d) in Step 3: if the library already has extra examples of a
+framework from earlier PDFs, mention that richer example count to the user.
 
 ## Step 3 — Ask the required questions (AskUserQuestion)
 
@@ -165,7 +203,11 @@ For each source PDF image you're using as inspiration for a concept, **view it**
 - What to swap in for this brand (product, colors, specific claim/number)
 
 You don't need a teardown for every single extracted image — just the ones
-informing a concept you're about to brief.
+informing a concept you're about to brief. If a framework has multiple
+examples across the swipe-file library (not just this run's PDF — check
+`<skill_dir>/swipe-file/manifest.json` and `swipe-file/images/`), it's fine
+to pull the clearest or most-different example from the whole library rather
+than only what this run's PDF happened to contain.
 
 ## Step 6 — Write one production brief per concept
 

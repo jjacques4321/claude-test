@@ -1,0 +1,128 @@
+{
+  "sources": [
+    {
+      "id": "winning-statics",
+      "pdf_name": "source.pdf",
+      "added": "2026-08-21T08:14:49+00:00",
+      "heading_font": "Poppins-Bold",
+      "page_count": 5,
+      "images": [
+        {
+          "file": "images/winning-statics/001_UNLABELED_p1.png",
+          "page": 1,
+          "heading": "UNLABELED"
+        },
+        {
+          "file": "images/winning-statics/002_UNLABELED_p1.png",
+          "page": 1,
+          "heading": "UNLABELED"
+        },
+        {
+          "file": "images/winning-statics/003_US_VS_THEM_p1.png",
+          "page": 1,
+          "heading": "US VS THEM"
+        },
+        {
+          "file": "images/winning-statics/004_US_VS_THEM_p1.jpeg",
+          "page": 1,
+          "heading": "US VS THEM"
+        },
+        {
+          "file": "images/winning-statics/005_BOLD_CLAIM_p1.jpeg",
+          "page": 1,
+          "heading": "BOLD CLAIM"
+        },
+        {
+          "file": "images/winning-statics/006_BOLD_CLAIM_p1.jpeg",
+          "page": 1,
+          "heading": "BOLD CLAIM"
+        },
+        {
+          "file": "images/winning-statics/007_UNLABELED_p1.png",
+          "page": 1,
+          "heading": "UNLABELED"
+        },
+        {
+          "file": "images/winning-statics/008_iPhone_NOTES_p2.png",
+          "page": 2,
+          "heading": "iPhone NOTES"
+        },
+        {
+          "file": "images/winning-statics/009_Features__Benefits_p2.png",
+          "page": 2,
+          "heading": "Features & Benefits"
+        },
+        {
+          "file": "images/winning-statics/010_iPhone_NOTES_p2.png",
+          "page": 2,
+          "heading": "iPhone NOTES"
+        },
+        {
+          "file": "images/winning-statics/011_Features__Benefits_p2.jpeg",
+          "page": 2,
+          "heading": "Features & Benefits"
+        },
+        {
+          "file": "images/winning-statics/012_Before__After_p3.jpeg",
+          "page": 3,
+          "heading": "Before & After"
+        },
+        {
+          "file": "images/winning-statics/013_OFFER_p3.png",
+          "page": 3,
+          "heading": "OFFER"
+        },
+        {
+          "file": "images/winning-statics/014_Before__After_p3.jpeg",
+          "page": 3,
+          "heading": "Before & After"
+        },
+        {
+          "file": "images/winning-statics/015_OFFER_p3.png",
+          "page": 3,
+          "heading": "OFFER"
+        },
+        {
+          "file": "images/winning-statics/016_QUESTION_p4.jpeg",
+          "page": 4,
+          "heading": "QUESTION"
+        },
+        {
+          "file": "images/winning-statics/017_TESTIMONIAL_p4.jpeg",
+          "page": 4,
+          "heading": "TESTIMONIAL"
+        },
+        {
+          "file": "images/winning-statics/018_TESTIMONIAL_p4.png",
+          "page": 4,
+          "heading": "TESTIMONIAL"
+        },
+        {
+          "file": "images/winning-statics/019_QUESTION_p4.png",
+          "page": 4,
+          "heading": "QUESTION"
+        },
+        {
+          "file": "images/winning-statics/020_Reasons_Why_p5.jpeg",
+          "page": 5,
+          "heading": "Reasons Why\u2026"
+        },
+        {
+          "file": "images/winning-statics/021_Sticky_Notes_p5.jpeg",
+          "page": 5,
+          "heading": "Sticky Notes"
+        },
+        {
+          "file": "images/winning-statics/022_Sticky_Notes_p5.jpeg",
+          "page": 5,
+          "heading": "Sticky Notes"
+        },
+        {
+          "file": "images/winning-statics/023_Reasons_Why_p5.jpeg",
+          "page": 5,
+          "heading": "Reasons Why\u2026"
+        }
+      ]
+    }
+  ]
+}
