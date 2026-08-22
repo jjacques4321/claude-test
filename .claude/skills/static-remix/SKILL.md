@@ -275,17 +275,47 @@ rules, and visual/model-representation rules for every brief instead of
 generic defaults (e.g. a required hook-body-CTA order, banned quote labels,
 required model demographics) — those override the general guidance above.
 
+**Check `<skill_dir>/brand-profiles/<domain>/concept-history.md`** (if it
+exists) before writing scene descriptions. It logs the framework, hook, and
+visual composition used in every past run for this brand. Two things to
+avoid, both of which are easy to fall into without checking: reusing the
+same hook/copy angle across runs (Step 3's research/teardown step should
+already prevent this), and — more subtle — reusing the same *composition*
+across concepts even when the copy is different. A collision-avoidance fix
+("keep text off the product") can quietly collapse into one repeated
+template (e.g. "text in the top half, product in the bottom half," applied
+to nearly every concept in a batch) — that satisfies the collision rule
+but produces a batch that reads as visually monotonous even with 10
+different headlines. Solve the same collision problem with genuinely
+different compositions across concepts: product held at an angle in-hand,
+product large in one corner with text in the negative space beside it, a
+diagonal or circular split instead of a horizontal one, a close-up crop
+where the product is partial/implied rather than fully framed, text
+integrated as a caption strip rather than a full zone, etc. The rule is
+"text and product don't overlap," not "text goes on top and product goes
+on the bottom."
+
+At the end of Step 8, append this run's concepts (framework, one-line
+hook, one-line composition description) to `concept-history.md`, creating
+it if it doesn't exist yet.
+
 ## Prompting guardrails (avoid text collisions, label garble, and the "AI look")
 
 These recur across runs and are cheap to prevent up front — bake them into
 every prompt you build in Step 7, not just when a regen is needed:
 
-- **Keep on-image text out of the product's way.** Don't let a headline wrap
-  around or behind the product — put text in a dedicated zone (a solid-color
-  band, a clear half of a split composition, a panel beside the product) with
-  real separation from it. Text-over-product is the most common legibility
-  failure (headline lines interrupted mid-word, words swallowed behind the
-  bottle).
+- **Keep on-image text out of the product's way — with varied compositions,
+  not one repeated template.** Don't let a headline wrap around or behind the
+  product — put text in a dedicated zone with real separation from it.
+  Text-over-product is the most common legibility failure (headline lines
+  interrupted mid-word, words swallowed behind the bottle). But don't fix
+  that by giving every concept in a batch the same "text zone on top,
+  product zone on bottom" split — that reads as visually monotonous across
+  a batch even with different copy. Vary *how* text and product stay
+  separated: a side panel, a diagonal split, product held at an angle with
+  text in the negative space around it, a caption strip instead of a full
+  zone, a close/partial crop of the product. See the compositional-variety
+  note in Step 6.
 - **Don't over-demand tiny label text.** If the product is small in frame or
   the label isn't the focal point, don't require every ingredient-line word to
   render perfectly — small text is where misspellings creep in (e.g. "Jojobs"
