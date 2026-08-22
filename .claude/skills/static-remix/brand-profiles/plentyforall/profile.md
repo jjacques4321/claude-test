@@ -64,6 +64,55 @@ brand's actual copy, not a placeholder for something unknown. It's fine to
 use it verbatim in ad copy (e.g. as a curiosity hook: "8 real oils... and 1
 secret ingredient"), but don't invent what it is.
 
+## Product usage — confirmed by the brand owner
+
+PlentyForAll is a multi-use oil, applied in any of three ways (not
+mutually exclusive):
+
+1. **Pre-poo** — applied to dry hair/scalp before shampooing, to cushion
+   strands and add slip for detangling.
+2. **The "O" in LOC/LCO** — the sealing step after washing (Liquid leave-in
+   → Oil → Cream, or Liquid → Cream → Oil), locking in the moisture from
+   the leave-in.
+3. **Standalone scalp treatment between wash days** — applied directly to
+   the scalp on non-wash days, independent of the wash routine. This is
+   the use case that most directly matches the scalp-first differentiator.
+
+### Critical copy-accuracy rule
+
+**Never imply the oil replaces washing, conditioning, or wash day itself.**
+This is a hair-savvy audience (see reddit-research.md) that will
+immediately spot an oil claiming to replace the actual wash — that reads
+as either misleading or ignorant of how hair care works, either of which
+damages credibility fast.
+
+"One oil, not five" ("we know you're always oiling") is accurate and
+approved: it's about consolidating the *oils* someone would otherwise buy
+or DIY-mix (castor, argan, jojoba, etc., bought separately) into one
+blend — not about eliminating steps from the wash itself. Frame any
+"simpler routine" claim around consolidating products *within the oiling
+step* (pre-poo oil, sealing oil, scalp oil — one bottle covers all three
+instead of three separate purchases), not around collapsing the whole
+wash day into fewer steps.
+
+**Flagged from run 20260822-0317 as needing correction before reuse** —
+these crossed the line into implying full wash-day/routine replacement,
+not just oil consolidation:
+- concept_05 (US VS THEM): "PlentyForAll: 1 step" vs "The old routine: 5+
+  steps," and "Wash day in minutes" vs "Wash day takes hours" — implies
+  the oil replaces the entire wash day, not just the oiling step.
+- concept_10 (QUESTION): body copy "PlentyForAll is one bottle, made to
+  do the job of five" — same overreach, unqualified "the job of five"
+  implies replacing five different *functions*, not five oils.
+- concept_04 (Sticky Notes): "5 products. Still not working." / "1
+  bottle. Actually works." — ambiguous about whether "5 products" means
+  five oils or the whole routine; needs the comparison scoped explicitly
+  to oils/oiling products if reused.
+
+concept_01 ("One oil. Not five.") and concept_08's "one bottle instead of
+five" list item are fine as-is — both read naturally as oil consolidation,
+not routine replacement.
+
 ## Target customer & visual rules
 
 - **Audience**: Black women, 24–35, with natural textured hair (4C, coils,
