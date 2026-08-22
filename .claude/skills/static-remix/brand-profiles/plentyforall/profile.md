@@ -175,6 +175,14 @@ impersonating a real person or outlet, not just a stylized ad device. Only
 use these frameworks if a real, verifiable endorsement or press mention
 actually exists for this brand.
 
+## Audience research
+
+`reddit-research.md` — pain points, real community vocabulary, and product/
+brand mentions synthesized from a 55-thread sample of r/Naturalhair. Check
+it when writing new copy, especially for fresh hook angles beyond what's
+already been used in past runs (e.g. the "one bottle instead of five"
+routine-fatigue angle hasn't been used in any run yet as of this writing).
+
 ## Reference photos
 
 `reference-photos/real_bottle_01.jpeg` through `real_bottle_05.jpeg`/`.webp`
