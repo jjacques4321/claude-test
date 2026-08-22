@@ -338,6 +338,23 @@ every prompt you build in Step 7, not just when a regen is needed:
   word). Regenerate once for a defect that's prominent (a garbled headline,
   not a barely-readable ingredient line) — this is a judgment call, not
   something the retry-on-500 rule in Step 7 covers.
+- **Ask explicitly for commercial product-photography quality on
+  studio-style shots** — a vague "clean studio background" undersells how
+  sharp and glossy a real product photo looks, and the model defaults to
+  something softer/flatter without being told otherwise. Name the specific
+  photographic qualities: tack-sharp focus on the product (not just the
+  background blurred), a realistic specular highlight matching the
+  product's actual material (a bright reflective streak on glass or glossy
+  plastic — check the reference photo for where highlights actually fall),
+  soft-box + rim lighting for edge definition, a well-defined (not mushy)
+  contact shadow, and high contrast/legibility on the label specifically.
+  "Commercial e-commerce product photography, tack-sharp focus, glossy
+  specular highlights, softbox lighting with a defined rim light" gets
+  closer to real product photography than "clean studio background" alone.
+  This applies to studio-style frameworks (BOLD CLAIM, US VS THEM, OFFER,
+  Feature Callouts) — don't add it to UGC-style formats, which
+  deliberately want the opposite (phone-camera realism, not commercial
+  polish).
 
 ## Step 7 — Generate images with Nano Banana Pro
 
