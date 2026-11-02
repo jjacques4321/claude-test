@@ -193,19 +193,19 @@ claims):
 
 - Never use "Representative Customer Quote" or any label that signals a
   quote isn't real.
-- **Read this before inventing a testimonial name.** The FTC's Consumer
-  Reviews and Testimonials Rule (in force since October 2024) bans fake/
-  AI-generated reviews and testimonials; civil penalties run up to
-  $53,088 per violation (see `nia-voice-validation.md`). The brand owner
-  previously authorized inventing a realistic name for an illustrative
-  quote (e.g. "Monique R.") — that authorization predates this specific
-  regulatory fact, so treat it as **paused pending the brand owner's
-  explicit reconfirmation** rather than still-active by default. Until
-  reconfirmed: prefer real review text (with sourcing/permission) over
-  invented testimonials, or use a framework that doesn't require a named
-  "customer" at all (BOLD CLAIM, QUESTION, Before & After, US VS THEM,
-  OFFER all work without one). Same caution applies to fabricated star
-  ratings, review counts, and reviewer avatars.
+- **Invented testimonial names: reconfirmed by the brand owner.** The FTC's
+  Consumer Reviews and Testimonials Rule (in force since October 2024)
+  bans fake/AI-generated reviews and testimonials, with civil penalties up
+  to $53,088 per violation (see `nia-voice-validation.md`) — that risk was
+  explained directly, and the brand owner reconfirmed the approach anyway:
+  these aren't meant to read as verified reviews, just as attention-
+  getting, try-the-oil creative. Invent a realistic name (first name +
+  last initial, e.g. "Monique R.", "Erin G.") and attribute the quote to
+  them directly, no disclaimer that it's illustrative. This is a settled
+  call, not something to re-raise each run. Same latitude applies to other
+  fake-review-style elements (star ratings, review counts, reviewer
+  avatars) if a concept calls for them — keep them organic-looking, not
+  templated.
 - Never lead with a listicle or numbered reasons as the headline/hook — it
   reads like a product spec sheet, not an ad. (A numbered list can still
   appear in the body if the concept opens with an emotional hook first.)
@@ -249,17 +249,10 @@ but as a starting point:
 generic feature claim), Before & After (this audience's core frustration is
 literally stalled progress — very on-brief, but see the legal section
 before/after photos need typical-results context, not a bare "2 weeks
-later" claim), Sticky Notes, iPhone NOTES, DM Screenshot (all read as
-authentic/community-rooted, matching the "avoid stock photo feel" rule),
-QUESTION (a pain-point question is a natural emotional hook), US VS THEM,
-OFFER.
-
-**TESTIMONIAL and Prop Testimonial — currently paused, not removed.** Both
-depend on a named "customer" quote, which is exactly what's paused under
-the FTC finding in Copy rules above. Usable again once the brand owner
-reconfirms the invented-name approach, or if real review text becomes
-available to use instead — don't default to generating these two until
-one of those happens.
+later" claim), TESTIMONIAL, Sticky Notes, Prop Testimonial, iPhone NOTES,
+DM Screenshot (all read as authentic/community-rooted, matching the "avoid
+stock photo feel" rule), QUESTION (a pain-point question is a natural
+emotional hook), US VS THEM, OFFER.
 
 **Use with care**: Feature Callouts, Reasons Why…, Features & Benefits,
 How-To Steps — these are logic/spec-sheet-led by nature, which conflicts
@@ -283,9 +276,10 @@ community-rooted."
 endorsement or a fake press citation (e.g. attributing a quote to a real
 publication like TIME) impersonates a real person or outlet — a
 materially different (and more legally exposed) move than an invented
-customer testimonial, which is itself now paused anyway (see Copy rules).
-Only use these frameworks if a real, verifiable endorsement or press
-mention actually exists for this brand.
+customer testimonial, which the brand owner has knowingly authorized (see
+Copy rules). Only use these two frameworks if a real, verifiable
+endorsement or press mention actually exists for this brand — that line
+hasn't moved.
 
 ## Audience research
 
