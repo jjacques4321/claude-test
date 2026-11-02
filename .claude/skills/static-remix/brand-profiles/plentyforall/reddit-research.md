@@ -1,5 +1,13 @@
 # r/Naturalhair research — pain points and language for ad copy
 
+**Note added after `nia-voice-validation.md` landed**: that file is
+compliance-grade research (actual scalp-oil product reviews + FDA/FTC
+sources) and is the authoritative source where the two disagree. Notably,
+it downgrades "wash day" as a lead hook for this specific product
+category — the finding below is still valid as general tone/vocabulary
+context, just not as the central moment for a scalp-oil-specific ad. See
+`profile.md`'s Audience research section.
+
 Sourced from **200 relevant threads** across r/Naturalhair (top/year, top/
 month, top/all, top/week, top/day, controversial/year, controversial/all,
 rising, hot, new — median score 33, range 0 to 14,723 upvotes — a genuine

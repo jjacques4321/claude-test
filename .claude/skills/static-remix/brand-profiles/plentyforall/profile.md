@@ -44,6 +44,14 @@ content matches the website label, only the bottle vessel/color is different.
 - Still pull any other offer/promo details verbatim from the live product
   page at run time — this profile only fixes the subscription math, it
   doesn't guarantee no other promo exists.
+- **Price-anchor context** (from `nia-voice-validation.md`): comparable
+  scalp oils price around $8.97–$9.97 per 2oz, and real buyers have
+  called a similarly-priced competitor "mostly cheap [oil] for the price."
+  At $35, PFA sits well above that anchor — copy doesn't need to apologize
+  for the price, but claims should lean on *real, specific* ingredients
+  (9 named oils, not a vague "premium blend") to justify it, since a
+  skeptical buyer will mentally price-check against the cheaper oils
+  she's already tried.
 
 ## Ingredients
 
@@ -115,12 +123,25 @@ not routine replacement.
 
 ## Target customer & visual rules
 
-- **Audience**: Black women, 24–35, with natural textured hair (4C, coils,
-  curls, locs, including edges). 2–6 years into their natural hair journey.
-  Have tried multiple products already and are frustrated their hair won't
-  grow past a certain length — emotionally in frustration, heartbreak, or
-  near-resignation ("tried everything," "won't grow," "my edges," "I'm
-  done").
+**Revised per `nia-voice-validation.md` (compliance-grade research) —
+supersedes the demographic specifics below where they conflict.**
+
+- **Audience**: Black woman with coily/kinky hair (4a–4c). She "does hair"
+  for the whole household — buys for her own edges, her kids' hair, and
+  sometimes her partner's (confirmed real buying pattern, not just her
+  own use). Her edges/hairline have thinned from **tension** — tight
+  protective-style installs, tight puffs, or postpartum shedding — not
+  genetics. She's already tried the famous oils (JBCO, Wild Growth,
+  Mielle) and her honest read is **"not sure if it's working"** — this is
+  quiet skepticism, not loud despair or "I'm done" drama. She's scared of
+  burning/irritation (the #1 negative theme for comparable products) and
+  cares about scent and scalp comfort as much as results.
+- **No verified evidence for**: a specific age range (the earlier
+  "24–35" was unverified), "2–6 years into her natural hair journey," or
+  men buying for themselves (men appear in the research only as someone
+  *else's* application target — a wife oiling a husband's balding spot,
+  a mom on her son's hairline — never first-person). Don't state these as
+  facts; if a concept needs an age-adjacent detail, keep it general.
 - **Any model shown must reflect this**: Black women with natural textured
   hair — 4C, coils, locs, or curly. Never straight hair, never an ambiguous/
   unclear hair type.
@@ -131,36 +152,67 @@ not routine replacement.
 ## Copy framework (always follow this order)
 
 1. **Hook** — emotional pain point first, never a product feature. Enter the
-   conversation already in her head. Use her exact words where possible:
-   "tried everything," "won't grow," "my edges," "I'm done."
+   conversation already in her head. Per the revised persona, her register
+   is **quiet skepticism**, not loud despair — "not sure if it's working,"
+   "tried the famous ones already," not "I'm done" or dramatic defeat. Use
+   her exact words where possible: "my edges," "tried [X] already," "not
+   sure if it's working," "is it actually doing anything."
 2. **Body** — shift the belief, then introduce the product as the solution.
 3. **CTA** — simple, direct, low-pressure.
+
+## Legal/compliance — read before writing any claim
+
+**`nia-voice-validation.md` has a full DO-say/DON'T-say table — check it
+for every concept, not just testimonials.** Short version: cosmetic claims
+about appearance/feel/comfort are safe ("scalp feels calm," "edges look
+fuller," "reduces breakage from combing"); claims that imply treating a
+condition or growing/regrowing hair are FDA drug claims ("relieves itch,"
+"stops hair loss," "regrows edges," "treats dandruff," "prevents traction
+alopecia"). Never state a specific results timeline ("weeks 8–12," "week
+6") — the clinical data behind the brand's own prior timeline claims does
+not support it (see that file). This is research, not legal advice — a
+cosmetic-regulatory attorney should review final copy before real spend.
+
+**Flagged phrases from concepts already generated that should be reworded
+if reused** (they cross from appearance/comfort into treatment/growth
+claims):
+- "My scalp doesn't itch anymore" / "My edges are filling back in" (Prop
+  Testimonial, run 20260821-0843) — "itch anymore" and "filling back in"
+  are drug-adjacent claims (symptom relief, regrowth). Reword to something
+  like "My scalp feels calmer" / "My edges feel less stressed."
+- "Treats the scalp, not just the strands" (used as a core differentiator
+  phrase across several runs) — "treats" is specifically flagged as
+  risky wording (see "treats dandruff" in the DON'T list). Prefer "cares
+  for the scalp," "made for the scalp," or "nourishes the scalp."
+- Any "What To Do When Your Hair Oil Just Sits on Top of Your Scalp" /
+  "...Still Won't Grow" style headline is fine as a *question about the
+  reader's situation*, but the body/CTA that follows must not promise the
+  product grows hair — redirect to appearance/comfort/scalp-care language.
 
 ## Copy rules
 
 - Never use "Representative Customer Quote" or any label that signals a
   quote isn't real.
-- For testimonial-style quotes: prefer a real name pulled from the
-  website's actual reviews if one exists; otherwise invent a realistic
-  customer name (first name + last initial, in the style real testimonial
-  ads use — e.g. "Monique R.", "Erin G.") and attribute the quote to them
-  directly, with no disclaimer that it's illustrative. Same for any other
-  fake-review-style elements a concept calls for (star ratings, review
-  counts, reviewer avatars) — make them look organic and specific, not
-  templated or AI-generated (avoid suspiciously round review counts,
-  generic stock-avatar art, or phrasing that reads as synthetic).
-  Note: attributing invented quotes to specific named people is standard
-  DTC ad practice but carries real advertising-truthfulness/FTC-disclosure
-  risk in some jurisdictions — that risk is the brand owner's call, not
-  something to relitigate on every run, but worth remembering it's a
-  deliberate choice, not a default.
+- **Read this before inventing a testimonial name.** The FTC's Consumer
+  Reviews and Testimonials Rule (in force since October 2024) bans fake/
+  AI-generated reviews and testimonials; civil penalties run up to
+  $53,088 per violation (see `nia-voice-validation.md`). The brand owner
+  previously authorized inventing a realistic name for an illustrative
+  quote (e.g. "Monique R.") — that authorization predates this specific
+  regulatory fact, so treat it as **paused pending the brand owner's
+  explicit reconfirmation** rather than still-active by default. Until
+  reconfirmed: prefer real review text (with sourcing/permission) over
+  invented testimonials, or use a framework that doesn't require a named
+  "customer" at all (BOLD CLAIM, QUESTION, Before & After, US VS THEM,
+  OFFER all work without one). Same caution applies to fabricated star
+  ratings, review counts, and reviewer avatars.
 - Never lead with a listicle or numbered reasons as the headline/hook — it
   reads like a product spec sheet, not an ad. (A numbered list can still
   appear in the body if the concept opens with an emotional hook first.)
 - Always lead with emotion before logic/features.
-- Core differentiator to foreground: scalp-first formula — addresses the
-  root cause of stalled hair growth by treating the scalp, not just the
-  strands (not just a generic "moisture" claim).
+- Core differentiator to foreground: scalp-first formula — the product is
+  made to **care for** the scalp (not "treat" — see legal section above),
+  addressing tension/stress on the scalp rather than just coating strands.
 
 ## Natural hair terminology
 
@@ -195,10 +247,19 @@ but as a starting point:
 
 **Good fits**: BOLD CLAIM (if the claim itself IS the emotional hook, not a
 generic feature claim), Before & After (this audience's core frustration is
-literally stalled progress — very on-brief), TESTIMONIAL, Sticky Notes,
-Prop Testimonial, iPhone NOTES, DM Screenshot (all read as authentic/
-community-rooted, matching the "avoid stock photo feel" rule), QUESTION
-(a pain-point question is a natural emotional hook), US VS THEM, OFFER.
+literally stalled progress — very on-brief, but see the legal section
+before/after photos need typical-results context, not a bare "2 weeks
+later" claim), Sticky Notes, iPhone NOTES, DM Screenshot (all read as
+authentic/community-rooted, matching the "avoid stock photo feel" rule),
+QUESTION (a pain-point question is a natural emotional hook), US VS THEM,
+OFFER.
+
+**TESTIMONIAL and Prop Testimonial — currently paused, not removed.** Both
+depend on a named "customer" quote, which is exactly what's paused under
+the FTC finding in Copy rules above. Usable again once the brand owner
+reconfirms the invented-name approach, or if real review text becomes
+available to use instead — don't default to generating these two until
+one of those happens.
 
 **Use with care**: Feature Callouts, Reasons Why…, Features & Benefits,
 How-To Steps — these are logic/spec-sheet-led by nature, which conflicts
@@ -206,31 +267,39 @@ with "never lead with a listicle or numbered reasons as the headline/hook."
 Fine as body content *after* an emotional hook headline, not as the leading
 format. Venn Diagram is usable structurally (two benefits overlapping at
 the product) but needs a tone rewrite — the source example used sexual
-humor that doesn't fit this audience's frustration/heartbreak tone.
+humor that doesn't fit this audience's tone.
 
 **Skip or deprioritize**: Ironic Bad Review and Cheeky Wordplay — both rely
-on humor/irony that risks landing wrong against an audience explicitly
-described as sitting in frustration, heartbreak, or near-resignation.
+on humor/irony that risks landing wrong against an audience in quiet
+skepticism (see revised persona — this is a softer register than the
+original "frustration/heartbreak" framing, but irony still risks landing
+as dismissive of a real, specific worry like burning/irritation).
 Gift Angle — doesn't fit a self-purchase haircare positioning unless a
 specific gifting campaign is the actual brief. Illustrated Comparison —
 cartoon-avatar style cuts against "avoid stock photo feel... feel real and
 community-rooted."
 
-**As Worn By and Press Quote — do not fabricate**: unlike an invented
-customer testimonial name (explicitly authorized above), inventing a
-celebrity endorsement or a fake press citation (e.g. attributing a quote
-to a real publication like TIME) is a materially different move —
-impersonating a real person or outlet, not just a stylized ad device. Only
-use these frameworks if a real, verifiable endorsement or press mention
-actually exists for this brand.
+**As Worn By and Press Quote — do not fabricate**: inventing a celebrity
+endorsement or a fake press citation (e.g. attributing a quote to a real
+publication like TIME) impersonates a real person or outlet — a
+materially different (and more legally exposed) move than an invented
+customer testimonial, which is itself now paused anyway (see Copy rules).
+Only use these frameworks if a real, verifiable endorsement or press
+mention actually exists for this brand.
 
 ## Audience research
 
-`reddit-research.md` — pain points, real community vocabulary, and product/
-brand mentions synthesized from a 55-thread sample of r/Naturalhair. Check
-it when writing new copy, especially for fresh hook angles beyond what's
-already been used in past runs (e.g. the "one bottle instead of five"
-routine-fatigue angle hasn't been used in any run yet as of this writing).
+Two files, different methodologies — check both:
+- `reddit-research.md` — organic community conversation from a 200-thread
+  sample of r/Naturalhair (general natural-hair pain points, vocabulary,
+  tone).
+- `nia-voice-validation.md` — compliance-grade research: product reviews
+  for a directly comparable scalp oil, forum threads, and FDA/FTC primary
+  sources. This one is more targeted to the actual scalp-oil buying
+  moment, and it's the authoritative source for anything claim-related —
+  **when the two disagree (e.g. "wash day" as a hook), defer to
+  `nia-voice-validation.md`'s verdict**, since it's grounded in reviews of
+  a directly comparable product rather than general community chatter.
 
 ## Reference photos
 
