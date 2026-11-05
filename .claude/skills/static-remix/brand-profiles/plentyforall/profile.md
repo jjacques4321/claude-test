@@ -72,19 +72,40 @@ brand's actual copy, not a placeholder for something unknown. It's fine to
 use it verbatim in ad copy (e.g. as a curiosity hook: "8 real oils... and 1
 secret ingredient"), but don't invent what it is.
 
-## Product usage — confirmed by the brand owner
+## Product usage — official, per `brand-book.md`
 
-PlentyForAll is a multi-use oil, applied in any of three ways (not
-mutually exclusive):
+**"One blend. Four ways. Every texture."** The brand's own official usage
+framework (from the Brand Book) supersedes the earlier 3-use summary —
+the earlier wording mapped roughly onto this but wasn't the authoritative
+phrasing:
 
-1. **Pre-poo** — applied to dry hair/scalp before shampooing, to cushion
-   strands and add slip for detangling.
-2. **The "O" in LOC/LCO** — the sealing step after washing (Liquid leave-in
-   → Oil → Cream, or Liquid → Cream → Oil), locking in the moisture from
-   the leave-in.
-3. **Standalone scalp treatment between wash days** — applied directly to
-   the scalp on non-wash days, independent of the wash routine. This is
-   the use case that most directly matches the scalp-first differentiator.
+1. **Pre-wash treatment** — work through dry lengths, section by section.
+   Leave on 20–30 minutes, then shampoo as usual. (Matches the old
+   "pre-poo" use.)
+2. **Scalp massage** — apply along the parts with the nozzle tip, massage
+   with fingertips for 2–3 minutes, before wash day or between washes.
+   (Matches the old "standalone scalp treatment" use.)
+3. **Define & shine finishing oil** — on dry hair, warm a few drops in
+   your palms and scrunch to break a gel cast, or lightly glaze over the
+   length to refresh curl definition and add shine. (New — not
+   previously documented as its own use; distinct from both pre-wash and
+   the LOC/LCO sealing step since it's applied on *dry*, already-styled
+   hair.)
+4. **Edge care** — apply 1 drop onto edges with a fingertip or brush.
+   Conditions hair and adds shine. (New as its own named use; previously
+   folded into "scalp treatment" generally.)
+
+The old "O in LOC/LCO" framing (oil as the sealing step after a
+liquid/cream leave-in) still holds as a *technique* natural-hair readers
+will recognize, but use the four official names above when a concept
+needs to name "a use" explicitly — they're what the brand's own research
+(the 12-avatar system in `pfa-research-stats-avatars.md`) is built on.
+
+**Texture-specific application** (for precise how-to body copy — see
+`brand-book.md` for full detail): Waves get 1–2 drops, ends only, skip
+the roots. Curls & coils get 3–4 drops through the lengths section by
+section. Locs get a few drops along the parts plus a scalp massage, with
+a light touch on the locs themselves to avoid buildup.
 
 ### Critical copy-accuracy rule
 
@@ -162,12 +183,47 @@ supersedes the demographic specifics below where they conflict.**
   speaks to). Check that file before assuming every concept is for the
   same "household hair-carer" avatar described above — that's really
   avatars 1/2/3 combined, not the only persona available.
-- **Any model shown must reflect this**: Black women with natural textured
-  hair — 4C, coils, locs, or curly. Never straight hair, never an ambiguous/
-  unclear hair type.
+- **Model representation — revised per `brand-book.md`, a real tension
+  worth knowing about.** The audience research above is specifically
+  strong evidence for Black women with coily/kinky hair (4a–4c), and any
+  concept targeting one of the *specific, evidenced pain points* (edges,
+  scalp itch after a protective style, takedown day, traction-alopecia-
+  adjacent tension) should keep featuring that representation — that's
+  where the evidence actually lives, don't dilute it. **But** the
+  brand's own official Brand Book explicitly calls for broader
+  representation across ethnicities and textures (waves, curls, coils,
+  locs together) for general lifestyle/community/brand-moment content,
+  and says to "rotate who leads." So: this is no longer a blanket
+  "always Black women, never straight hair" rule for every single
+  concept — match the model to the specific avatar/moment a given
+  concept is actually depicting. A concept built on avatar 1 (day-3
+  braid itch) or avatar 2 (takedown-day edge check) should still feature
+  a Black woman with coily/kinky hair, since that's the specifically
+  evidenced persona. A general brand/lifestyle concept, or one built
+  around avatar 11 (wave guy) or a mixed-household moment, can and
+  should reflect the brand's actual broader inclusivity. Avoid straight,
+  clearly-non-textured hair only where the concept is about a textured-
+  hair-specific pain point; otherwise the brand's own direction is to
+  show the mix, not avoid it.
 - Avoid a stock-photo feel — images should feel real and community-rooted,
-  not studio-generic.
-- Brand accent color for backgrounds/UI elements: teal `#05A79C`.
+  not studio-generic. Per `brand-book.md`'s Visual Direction: favor close
+  portraits and candid group moments, tight crops and unexpected angles,
+  and a soft, slightly grainy, film-inspired finish over a polished-
+  corporate look.
+- **Brand color palette (full, per `brand-book.md`)** — not just teal.
+  Teal `#05A79C` (freshness/energy, primary accent), Navy `#003C64`
+  (depth), Charcoal `#1C1C1C` (depth/grounding), Forest Green `#2B402B`
+  (depth), Mustard `#D9A441` (warmth/personality), Cream `#F1ECE4`
+  (breathing room/background). Past concepts have leaned on teal almost
+  exclusively — pull in navy, forest green, mustard, and cream for
+  background/prop color variety across a batch; this also helps with
+  compositional variety across runs (see `concept-history.md`).
+- **Typography character**: headlines/accents should read as a bold,
+  geometric sans similar to League Spartan; body/supporting text as a
+  clean, slightly rounded sans similar to DM Sans. Nano Banana Pro can't
+  render the exact licensed fonts, but naming this character in prompts
+  steers generated lettering closer to brand than a generic "bold
+  sans-serif" instruction.
 
 ## Copy framework (always follow this order)
 
@@ -226,6 +282,26 @@ claims):
 
 ## Copy rules
 
+- **Sentence case, not Title Case, for headlines — per `brand-book.md`'s
+  official writing rules.** This is a real correction to how most prior
+  concepts were written. "What To Do When Your Hair Oil Just Sits on Top
+  of Your Scalp" (Title Case) should become "What to do when your hair
+  oil just sits on top of your scalp" (sentence case) going forward.
+- **No em dashes in headlines/captions — use periods or commas instead.**
+  Also per the Brand Book's "calm, not loud" rule. No countdown/urgency
+  gimmicks either.
+- **Celebrate, never correct.** Texture itself is never the problem —
+  never imply the reader's natural hair is something to fix. It's fine
+  (and the core of the whole hook framework above) to call out an
+  *external* problem — tension from a style, a routine that isn't
+  working, products that let her down — just never frame her texture as
+  the thing that's wrong. "Your hair was never the problem, breakage
+  was" is the right shape; "your hair looks a mess" is not.
+- **Words to avoid (brand-voice reasons, on top of the legal bans
+  below)**: tame, unruly, manageable, frizz-free (frame texture as a
+  problem); sacred, abundance, worthy (too spiritual for this brand).
+  "Miracle," "regrowth," "cure," "reverse" are banned for both
+  brand-voice and legal reasons — see Legal/compliance.
 - Never use "Representative Customer Quote" or any label that signals a
   quote isn't real.
 - **Invented testimonial names: reconfirmed by the brand owner.** The FTC's
@@ -316,9 +392,9 @@ Copy rules). Only use these two frameworks if a real, verifiable
 endorsement or press mention actually exists for this brand — that line
 hasn't moved.
 
-## Audience research
+## Audience research and brand identity
 
-Three files, different methodologies — check all three:
+Four files, different jobs — check all four:
 - `reddit-research.md` — organic community conversation from a 200-thread
   sample of r/Naturalhair (general natural-hair pain points, vocabulary,
   tone).
@@ -331,6 +407,13 @@ Three files, different methodologies — check all three:
   competitor weak-spot tracker mapped directly to PFA's actual
   advantages, the full 12-avatar system (test-first: avatars 1, 4, 5, 8),
   and ready-to-use objection-handling copy.
+- `brand-book.md` — **the official brand guidelines, authoritative on
+  voice/tone, color, typography, and visual direction** (not an audience
+  research file like the other three — it's about how the brand sounds
+  and looks, regardless of who a concept targets). This is where the
+  sentence-case rule, the words-to-avoid list, the full color palette,
+  the typography character, and the official four-ways usage framework
+  all come from. Check it for every concept, same as the legal files.
 
 **For claims/legal questions, treat `nia-voice-validation.md` and
 `pfa-research-stats-avatars.md` as the authoritative pair** (both have
@@ -338,7 +421,9 @@ DO/DON'T tables — see Legal/compliance above) — when either disagrees
 with `reddit-research.md` on a non-legal question (e.g. "wash day" as a
 hook), defer to whichever of the first two is more specific to the
 scalp-oil buying moment, since `reddit-research.md` is general community
-chatter rather than category-specific.
+chatter rather than category-specific. **For voice/tone and visual
+questions, `brand-book.md` is authoritative over all three others** —
+e.g. it overrides any Title Case headline style used in earlier runs.
 
 ## Reference photos
 
