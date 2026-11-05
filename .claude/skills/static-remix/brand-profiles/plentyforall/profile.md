@@ -115,6 +115,15 @@ immediately spot an oil claiming to replace the actual wash — that reads
 as either misleading or ignorant of how hair care works, either of which
 damages credibility fast.
 
+**Sharpened per `pfa-research-stats-avatars.md` sections 7 and 10**:
+never say PFA "moisturizes" on its own or "hydrates the scalp" — the
+natural-hair community firmly believes (and is right) that oil *seals*
+moisture, it isn't moisture itself. Say it seals in moisture, adds slip,
+softens, and adds shine; let water/leave-in own "moisturizes." Relatedly,
+"one blend, four ways" means it replaces the reader's *other oils*
+(pre-wash oil, scalp oil, shine serum, edge product) — never pitch it as
+replacing water, conditioner, or leave-in.
+
 "One oil, not five" ("we know you're always oiling") is accurate and
 approved: it's about consolidating the *oils* someone would otherwise buy
 or DIY-mix (castor, argan, jojoba, etc., bought separately) into one
@@ -249,11 +258,22 @@ version: cosmetic claims about appearance/feel/comfort are safe ("scalp
 feels calm," "edges look fuller," "reduces breakage from combing");
 claims that imply treating a condition or growing/regrowing hair are FDA
 drug claims ("relieves itch," "stops hair loss," "regrows edges," "treats
-dandruff," "prevents traction alopecia"). Never state a specific results
-timeline ("weeks 8–12," "week 6") — the clinical data behind the brand's
-own prior timeline claims does not support it (see that file). This is
-research, not legal advice — a cosmetic-regulatory attorney should review
-final copy before real spend.
+dandruff," "prevents traction alopecia").
+
+**Timelines — updated, no longer a blanket ban.** The earlier flat "never
+state a specific results timeline" rule is now more precise, per
+`pfa-research-stats-avatars.md` section 8: a cosmetic-only, dermatology-
+sourced timeline is usable — first wash day (more slip, softer/shinier),
+weeks 1–2 (scalp comfortable between washes, fewer flakes), weeks 4–8
+(less breakage, fewer snapped ends), month 3+ (holding onto more length,
+never "faster growth") — **but only in a concept backed by real customer
+check-in data** (the brand owner would need to actually collect 5–10
+customers' day-1/week-4/week-8/week-12 photos and notes first — this is
+a business/ops prerequisite, not something this skill can generate on
+its own). Without that real backing, stay with the old, safer
+appearance/comfort-only framing and no specific week. This is research,
+not legal advice — a cosmetic-regulatory attorney should review final
+copy before real spend.
 
 **Also useful, not just restrictive**: `pfa-research-stats-avatars.md`
 section 1 has a table of verified stats with their own "OK to show in an
@@ -299,9 +319,20 @@ claims):
   was" is the right shape; "your hair looks a mess" is not.
 - **Words to avoid (brand-voice reasons, on top of the legal bans
   below)**: tame, unruly, manageable, frizz-free (frame texture as a
-  problem); sacred, abundance, worthy (too spiritual for this brand).
+  problem); sacred, abundance, worthy (too spiritual for this brand);
+  transform, game-changer, luxurious, revolutionary, and any specific
+  fast-timeline claim like "results in 14 days" (confirmed independently
+  by real customer language research in `pfa-research-stats-avatars.md`
+  section 9 as words that "sound like an ad" to this exact audience).
   "Miracle," "regrowth," "cure," "reverse" are banned for both
   brand-voice and legal reasons — see Legal/compliance.
+- **Customer voice patterns worth matching** (section 9 of
+  `pfa-research-stats-avatars.md`): speak in moments, not categories
+  ("day 3 of braids," not "during your hair care routine"); name past
+  failures specifically ("the peppermint one burned," "it just sat on
+  top of my hair"); it's fine, even good, for a hook to admit skepticism
+  outright ("I know, another oil"); stay first-person, short, and plain
+  over anything that sounds like marketing copy.
 - Never use "Representative Customer Quote" or any label that signals a
   quote isn't real.
 - **Invented testimonial names: reconfirmed by the brand owner.** The FTC's
@@ -406,7 +437,12 @@ Four files, different jobs — check all four:
   their own ad-safety rating, real YouTube customer-voice quotes, a
   competitor weak-spot tracker mapped directly to PFA's actual
   advantages, the full 12-avatar system (test-first: avatars 1, 4, 5, 8),
-  and ready-to-use objection-handling copy.
+  ready-to-use objection-handling copy, plus (sections 7–10, added later)
+  two verified real Reddit threads, a dermatology-sourced realistic
+  results timeline, a "how to sound like the customer" voice guide with
+  ready-to-use example lines, and a "bridge map" cookbook of
+  failed-attempt → honest-bridge → example-copy rows — genuinely useful
+  as a direct source of hooks and body copy, not just background.
 - `brand-book.md` — **the official brand guidelines, authoritative on
   voice/tone, color, typography, and visual direction** (not an audience
   research file like the other three — it's about how the brand sounds
