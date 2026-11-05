@@ -137,11 +137,31 @@ supersedes the demographic specifics below where they conflict.**
   burning/irritation (the #1 negative theme for comparable products) and
   cares about scent and scalp comfort as much as results.
 - **No verified evidence for**: a specific age range (the earlier
-  "24–35" was unverified), "2–6 years into her natural hair journey," or
-  men buying for themselves (men appear in the research only as someone
-  *else's* application target — a wife oiling a husband's balding spot,
-  a mom on her son's hairline — never first-person). Don't state these as
-  facts; if a concept needs an age-adjacent detail, keep it general.
+  "24–35" was unverified), "2–6 years into her natural hair journey." Keep
+  these as unstated facts; if a concept needs an age-adjacent detail, keep
+  it general.
+- **Men — updated by `pfa-research-stats-avatars.md`**: the earlier
+  "not supported" verdict was based on zero first-person male buyer
+  quotes found at the time. A later research pass found one real,
+  well-liked (126-like) first-person quote from a Black man about his own
+  scalp itch while growing out his own afro/twists/starter locs. That's
+  Medium evidence, not Strong — thinner than the core female avatars, but
+  no longer zero. **A man growing out his own hair is now a defensible
+  avatar to test** ("Guy growing it out," avatar #4 — see that file),
+  distinct from the still-unsupported idea of a man buying for himself in
+  a generic/non-growth context. Men otherwise still show up in the
+  research mainly as someone *else's* application target (a wife on a
+  husband's balding spot, a mom on a son's hairline) — that pattern still
+  holds alongside, not instead of, the new avatar 4 finding.
+- **12 full avatars exist** in `pfa-research-stats-avatars.md`, each tied
+  to one of PFA's four actual uses (pre-wash, scalp massage, finishing
+  oil, edge care). Test-first priority per that research: avatars 1
+  (day-3 braid itch), 4 (guy growing it out), 5 (parent doing a mixed/
+  adopted kid's hair — untaught hair, wash day ends in tears), and 8
+  (hijabi with curly/coily hair — a real niche almost no competitor
+  speaks to). Check that file before assuming every concept is for the
+  same "household hair-carer" avatar described above — that's really
+  avatars 1/2/3 combined, not the only persona available.
 - **Any model shown must reflect this**: Black women with natural textured
   hair — 4C, coils, locs, or curly. Never straight hair, never an ambiguous/
   unclear hair type.
@@ -162,16 +182,31 @@ supersedes the demographic specifics below where they conflict.**
 
 ## Legal/compliance — read before writing any claim
 
-**`nia-voice-validation.md` has a full DO-say/DON'T-say table — check it
-for every concept, not just testimonials.** Short version: cosmetic claims
-about appearance/feel/comfort are safe ("scalp feels calm," "edges look
-fuller," "reduces breakage from combing"); claims that imply treating a
-condition or growing/regrowing hair are FDA drug claims ("relieves itch,"
-"stops hair loss," "regrows edges," "treats dandruff," "prevents traction
-alopecia"). Never state a specific results timeline ("weeks 8–12," "week
-6") — the clinical data behind the brand's own prior timeline claims does
-not support it (see that file). This is research, not legal advice — a
-cosmetic-regulatory attorney should review final copy before real spend.
+**Two files have DO-say/DON'T-say tables — check both for every concept,
+not just testimonials:** `nia-voice-validation.md` and
+`pfa-research-stats-avatars.md` (section 6, "Claim rules"). The second
+file adds a few bans not in the first: never say "dandruff" or
+"antidandruff" at all (stronger than just "treats dandruff"), "works like
+minoxidil," or "rosemary is proven to grow hair." Treat the union of both
+lists as banned, not just whichever file you happen to check. Short
+version: cosmetic claims about appearance/feel/comfort are safe ("scalp
+feels calm," "edges look fuller," "reduces breakage from combing");
+claims that imply treating a condition or growing/regrowing hair are FDA
+drug claims ("relieves itch," "stops hair loss," "regrows edges," "treats
+dandruff," "prevents traction alopecia"). Never state a specific results
+timeline ("weeks 8–12," "week 6") — the clinical data behind the brand's
+own prior timeline claims does not support it (see that file). This is
+research, not legal advice — a cosmetic-regulatory attorney should review
+final copy before real spend.
+
+**Also useful, not just restrictive**: `pfa-research-stats-avatars.md`
+section 1 has a table of verified stats with their own "OK to show in an
+ad?" column — some are cleared for direct use (e.g. "nearly half of Black
+women in a 5,000+ person survey report thinning," "66% of Black women
+change their hair for job interviews," "53% of Black moms say their
+daughter faced hair bias by age 5"). Section 5 ("Objections to answer")
+has ready-to-use honest-disagreement copy, e.g. agreeing outright that
+"oils don't grow hair" as a differentiated hook rather than a liability.
 
 **Flagged phrases from concepts already generated that should be reworded
 if reused** (they cross from appearance/comfort into treatment/growth
@@ -283,17 +318,27 @@ hasn't moved.
 
 ## Audience research
 
-Two files, different methodologies — check both:
+Three files, different methodologies — check all three:
 - `reddit-research.md` — organic community conversation from a 200-thread
   sample of r/Naturalhair (general natural-hair pain points, vocabulary,
   tone).
 - `nia-voice-validation.md` — compliance-grade research: product reviews
   for a directly comparable scalp oil, forum threads, and FDA/FTC primary
-  sources. This one is more targeted to the actual scalp-oil buying
-  moment, and it's the authoritative source for anything claim-related —
-  **when the two disagree (e.g. "wash day" as a hook), defer to
-  `nia-voice-validation.md`'s verdict**, since it's grounded in reviews of
-  a directly comparable product rather than general community chatter.
+  sources. More targeted to the actual scalp-oil buying moment than the
+  Reddit file.
+- `pfa-research-stats-avatars.md` — verified, source-cited stats with
+  their own ad-safety rating, real YouTube customer-voice quotes, a
+  competitor weak-spot tracker mapped directly to PFA's actual
+  advantages, the full 12-avatar system (test-first: avatars 1, 4, 5, 8),
+  and ready-to-use objection-handling copy.
+
+**For claims/legal questions, treat `nia-voice-validation.md` and
+`pfa-research-stats-avatars.md` as the authoritative pair** (both have
+DO/DON'T tables — see Legal/compliance above) — when either disagrees
+with `reddit-research.md` on a non-legal question (e.g. "wash day" as a
+hook), defer to whichever of the first two is more specific to the
+scalp-oil buying moment, since `reddit-research.md` is general community
+chatter rather than category-specific.
 
 ## Reference photos
 
